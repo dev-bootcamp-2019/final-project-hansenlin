@@ -7,6 +7,7 @@ import teamReducer from './teamReducer';
 import gameReducer from './gameReducer';
 import transactionReducer from './transactionReducer';
 import playerReducer from './playerReducer';
+import accountReducer from './accountReducer';
 
 export default combineReducers({
   form: formReducer,
@@ -15,6 +16,6 @@ export default combineReducers({
   league: leagueReducer,
   team: teamReducer,
   game: gameReducer,
-  player: playerReducer
-
+  player: playerReducer,
+  account: accountReducer
 });

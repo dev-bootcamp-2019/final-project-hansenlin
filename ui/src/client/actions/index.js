@@ -9,6 +9,25 @@ let factoraddress = "0x0ce697654F1D77a8Ad69556E7a88Ddbc4Bdfbb73";
 
 const factory = Factory(factoraddress);
 
+export const FETCH_ACCOUNT = 'fetch_account';
+export const getAccount = () => {  
+  return async dispatch => {
+    function onSuccess(success) {
+      dispatch({ type: FETCH_ACCOUNT, payload: success });
+    }
+    function onError(error) {
+      dispatch({ type: FETCH_ACCOUNT, payload: "" });
+    }
+    try {
+      const accounts = await web3.eth.getAccounts();
+      const success = accounts[0];
+      return onSuccess(success);
+    } catch (error) {
+      return onError(error);
+    }
+  }
+}
+
 export const FETCH_TRANSACTIONS = 'fetch_transactions';
 export const fetchTransactions = () => {
   return {
