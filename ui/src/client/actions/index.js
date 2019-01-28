@@ -5,7 +5,9 @@ import Players from '../web3/players';
 import League from '../web3/league';
 
 let logic = "0xb5A58a95eD9A96f5fDc3919Ee32D7E64522a956f";
-const factory = Factory("0x0ce697654F1D77a8Ad69556E7a88Ddbc4Bdfbb73");
+let factoraddress = "0x0ce697654F1D77a8Ad69556E7a88Ddbc4Bdfbb73";
+
+const factory = Factory(factoraddress);
 
 export const FETCH_TRANSACTIONS = 'fetch_transactions';
 export const fetchTransactions = () => {
