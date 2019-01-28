@@ -13,7 +13,7 @@ npm install -g ganache-cli
 npm install -g truffle
 ```
 
-Make certain that ganache is listening port 8545, this is important. Open a terminal window and start up the local private blockchain.
+Make certain that ganache is listening on port 8545, this is important. Open a terminal window and start up the local private blockchain.
 
 ```sh
 ganache-cli
@@ -39,7 +39,7 @@ truffle migrate --reset
 truffle test
 ```
 
-After the test runs, you will see two addresses are printed out near the top. Open final-project-hansenlin/ui/src/client/actions/index.js and copy the first address to the value of `"logic"` on line 7 and paste the second address to the value of `"factoraddress"` on line 8.
+After the test runs, you will see two addresses printed out to the terminal window at the start of the first test. Open final-project-hansenlin/ui/src/client/actions/index.js and copy the first address to the value of `"logic"` on line 7 and paste the second address to the value of `"factoraddress"` on line 8.
 
 Open a new terminal tab and cd to final-project-hansenlin/ and run the following command:
 
@@ -87,4 +87,3 @@ Give the command a few seconds to build and then with the Chrome browser you jus
 - Once games have occured in real life the teams can then post the scores their teams have scored. The opponents in the fantasy league must have corroborating scores in order to be valid. Then all members of the fantasy league minus score poster will need to validate the scores before it is applied to the standings.
 
 - The team with the most wins against other league members is the winner. In the event of a tie, points differential will be considered.
-
