@@ -1,6 +1,6 @@
 # decentralized-fantasy-sports
 
-Football is a popular sport played in North America. Fantasy football is a why for fans to play games against each other using real data and stats from game results. see https://en.wikipedia.org/wiki/Fantasy_sport
+American football is a popular sport played in North America. Fantasy football is a way for fans to play games against each other using real data and stats from game results. see https://en.wikipedia.org/wiki/Fantasy_sport
 
 ## Getting started
 
@@ -13,7 +13,7 @@ npm install -g ganache-cli
 npm install -g truffle
 ```
 
-Open a terminal window and start up the local private blockchain.
+Make certain that ganache is listening port 8545, this is important. Open a terminal window and start up the local private blockchain.
 
 ```sh
 ganache-cli
@@ -59,7 +59,7 @@ Solidity Enum values are exposed as integer values. Therefore when entering the 
 
 Start by opening final-project-hansenlin/ui/src/client/actions/index.js again and copy this address `"0x0D072C9b63222f50E7e5a7d083c306c01cCf7456"` to the value of `"logic"` on line 7 and paste the this address `"0x4be77cc37520b36A3F7FD128d374e6ABF69331E7"` to the value of `"factoraddress"` on line 8.
 
-Now open the file final-project-hansenlin/ui/src/client/web3/web3.js and replace 'http://localhost:8545' on line 12 with `'https://rinkeby.infura.io/v3/fb08e01a1a774e4ca80c6e12c0c99ffa'`
+Now open the file final-project-hansenlin/ui/src/client/web3/web3.js and replace `'http://localhost:8545'` on line 12 with `'https://rinkeby.infura.io/v3/fb08e01a1a774e4ca80c6e12c0c99ffa'`
 
 Open your chrome browser and set your network on MetaMask to Rinkeby.
 
