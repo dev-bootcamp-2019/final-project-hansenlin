@@ -1,21 +1,21 @@
-##Avoiding Common Attacks
+## Avoiding Common Attacks
 
-###Restricting Access
+### Restricting Access
 
-Require statements allows only specific addresses to use these contracts.
+Require statements are used to allow only specific addresses to access these contracts.
 
-###DoS with Block Gas Limit
+### DoS with Block Gas Limit
 
-Looping iteration is hard coded to prevent reaching block gas limit
+The number iterations in looping operations are hard coded to prevent reaching block gas limit.
 
-###Reentrancy Attacks
+### Reentrancy Attacks
 
 Delegate call is used to protect against reentrancy.
 
-###Tx Origin Attacks
+### Tx Origin Attacks
 
-Using msg.sender instead of tx.origin for transactions.
+msg.sender is used instead of tx.origin for transactions.
 
-###Integer Overflow/Underflow
+### Integer Overflow/Underflow
 
-The SafeMath and the OpenZeppelin tokens library has been used to avoid integer the integer overflow and underflow.
+The SafeMath and the OpenZeppelin token libraries are used to avoid integer overflow and underflow.
