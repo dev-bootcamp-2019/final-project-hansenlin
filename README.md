@@ -47,7 +47,7 @@ Give the command a few seconds to build and then with the Chrome browser you con
 
 ## Gotchas
 
-Solidity Enum values are exposed as integer values. Therefore when entering the playing position of your player use 1 for QB or quarterback, 2 for RB or running back, 3 for WR or wide reciever, 4 for TE or tight end, 5 for K or kicker, and 6 for DEF or defense.
+Solidity Enum values are exposed as integer values. Therefore when entering the playing position of your player, use 1 for QB or quarterback, 2 for RB or running back, 3 for WR or wide reciever, 4 for TE or tight end, 5 for K or kicker, and 6 for DEF or defense.
 
 
 ## Interacting with the Rinkeby testnet contract
@@ -73,7 +73,7 @@ Give the command a few seconds to build and then with the Chrome browser you jus
 
 - If the user wishes to create a new league s/he will need to supply 10 addresses each representing a team. Then the drafting of players will begin. Drafting ocurs in "rounds", where the sequence of picks seesaws back and forth. That is the saw the first team to pick in the first round will pick last in the second round, the last team to pick in the first round will pick first in the second round. This logic is enforced by the smart contract.
 
--Players will be identified primarily on their date of birth and real world draft number. If a player was undrafted enter 000 for the draft position field.
+- Players will be identified primarily on their date of birth and real world draft number. If a player was undrafted enter 000 for the draft position field.
 
 - Once the draft is over (after each team picks 8 players), the league is created and teams may then add or drop players and setup rosters for games. One thing to note is that rosters are at max 10 players.
 
