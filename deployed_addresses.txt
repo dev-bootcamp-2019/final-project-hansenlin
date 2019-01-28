@@ -1,0 +1,10 @@
+Rinkeby Network
+
+PlayersLogic contract:
+"0x0D072C9b63222f50E7e5a7d083c306c01cCf7456"
+
+LeagueFactort contract:
+"0x4be77cc37520b36A3F7FD128d374e6ABF69331E7"
+
+Players contract:
+"0xdc2C91dfa6754F9521A6cc7728E2e2E0521C478F"
