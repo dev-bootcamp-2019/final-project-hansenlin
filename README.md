@@ -21,8 +21,13 @@ ganache-cli
 
 Now open Chrome, copy the mnemonic to your MetaMask, and connect to localhost 8545
 
+Open a new terminal tab and cd into the final-project-hansenlin/ project directory and run:
 
-Open a new terminal tab and cd into the project directory; then run build, migrate, and test the truffle project.
+```sh
+npm install
+```
+
+After all the node packages are installed, enter the following commands to build, migrate, and test the truffle project.
 
 ```sh
 truffle build
