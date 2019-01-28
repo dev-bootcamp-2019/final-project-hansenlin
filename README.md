@@ -76,7 +76,9 @@ Give the command a few seconds to build and then with the Chrome browser you jus
 
 - First the user is presented with all the currently deployed leagues in the network. The user may choose to explore them or go on to create a new league.
 
-- If the user wishes to create a new league s/he will need to supply 10 addresses each representing a team. Then the drafting of players will begin. Drafting ocurs in "rounds", where the sequence of picks seesaws back and forth. That is the saw the first team to pick in the first round will pick last in the second round, the last team to pick in the first round will pick first in the second round. This logic is enforced by the smart contract.
+- If the user wishes to create a new league s/he will need to supply 10 addresses each representing a team. Then the drafting of players will begin. Drafting ocurs in "rounds", where the sequence of picks seesaws back and forth. That is the first team to pick in the first round will pick last in the second round, the last team to pick in the first round will pick first in the second round. This logic is enforced by the smart contract.
+
+- Drafting must take place before other functionalities become available. The graphical user interface of a league that has completed its draft will have more options than a league that has not completed its draft.
 
 - Players will be identified primarily on their date of birth and real world draft number. If a player was undrafted enter 000 for the draft position field.
 
