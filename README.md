@@ -16,7 +16,7 @@ npm install -g truffle
 Make certain that ganache is listening on port 8545, this is important. Open a terminal window and start up the local private blockchain.
 
 ```sh
-ganache-cli
+ganache-cli -l 8000000
 ```
 
 Now open Chrome, copy the mnemonic to your MetaMask, and connect to localhost 8545
